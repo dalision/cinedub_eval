@@ -1,0 +1,43 @@
+# VTS-Eval — pip install -r requirements.txt covers vts_benchmark env
+# (qwen3-asr env has its own pin, see setup.sh)
+
+# Core ML
+torch>=2.1.0
+torchvision
+torchaudio
+transformers>=4.40.0
+accelerate>=0.28.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile
+
+# WER
+jiwer
+word2number
+
+# MCD
+pymcd
+
+# UTMOS (loaded via torch.hub; speechmos ensures compat)
+speechmos
+
+# SyncNet
+syncnet-python
+
+# Syncformer / av-benchmark stack
+einops
+omegaconf
+hydra-core
+decord
+opencv-python
+
+# cpWER via Gemini / OpenAI-compatible client
+google-genai
+google-generativeai
+
+# Utility
+tqdm
+numpy
+colorlog
+scipy

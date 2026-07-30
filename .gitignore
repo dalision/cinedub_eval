@@ -1,0 +1,26 @@
+# Model weights (use download_models.sh) — keep small shipped weights, ignore large downloads
+ckpts/utmos/
+ckpts/syncformer/
+ckpts/sfd_face*.pth
+ckpts/syncnet_v2.model
+
+# Cache / runtime artifacts
+cache/
+*.pyc
+__pycache__/
+
+# Third-party clones
+thirdparty/
+
+# Logs
+*.log
+*.tmp
+nohup.out
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Local results
+results/
