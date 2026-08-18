@@ -347,8 +347,11 @@ If this tooling helped your work, please cite our paper:
              Dialogues with Coherent Sound Effects},
   author  = {Dai, Yusheng and Wang, Kangdi and Gao, Baolong and Jiang, Yuxuan and
              Wang, Weiqiang and Ke, Qiuhong and Cai, Jianfei},
-  journal = {arXiv preprint},
-  year    = {2026}
+  journal = {arXiv preprint arXiv:2608.15734},
+  year    = {2026},
+  eprint  = {2608.15734},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2608.15734}
 }
 ```
 
